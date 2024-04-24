@@ -1,0 +1,12 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.logo_icon{
+    background-image: url("../img/Logo.svg");
+    width: 90px;
+    height: 90px;
+}

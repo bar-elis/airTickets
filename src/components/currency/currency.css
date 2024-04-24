@@ -1,0 +1,39 @@
+.currency_but{
+    height: 50px;
+    width: 33%;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 20px;
+    color: #179eff;
+    border: 2px solid rgba(196, 196, 196, 0.69);
+    cursor: url("../img/Cursor.svg"), pointer;
+    background-color: #ffffff;
+    font-size: 18px;
+}
+
+.but_right{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-right: none;
+}
+
+.but_left{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-left: none;
+}
+
+.currency_but:hover{
+    border: 1px solid #179eff;
+}
+
+.currency_but:focus{
+    background-color: #179eff;
+    color: white;
+    border: 1px solid #179eff;
+}
+
+.currency_but__focus{
+    background-color: #179eff;
+    color: white;
+    border: 1px solid #179eff;
+}
