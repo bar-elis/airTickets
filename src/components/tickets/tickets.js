@@ -1,6 +1,6 @@
 import React from "react";
-import { format } from 'date-fns'
-import "./tickets.css"
+import { format } from 'date-fns';
+import "./tickets.css";
 
 const Tickets = ({tickets}) => {
     let stopsCount;
