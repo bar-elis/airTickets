@@ -34,7 +34,7 @@ const Tickets = ({tickets}) => {
     return <section className='ticket'>
      <div className="logo_price">
          <span className="company_logo"></span>
-         <button className="company_price">Купить<br/>за {price}</button>
+         <button className="company_price" onClick={() => alert('Покупка оформлена')}>Купить<br/>за {price}</button>
      </div>
      <div className="info_ticket__time">
          <div className="info_time">
