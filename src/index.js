@@ -106,7 +106,7 @@ function App() {
                 break
         }
         if(ticketsObj.length === 0) {
-            conversionСurrency("RUB")
+            convers ? conversionСurrency(convers) : conversionСurrency("RUB");
         }
     }
     return <>
